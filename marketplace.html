@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipinoy Central - Marketplace</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: #f4efea;
+            color: #2c1d11;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .site-header {
+            background-color: #3b2314;
+            color: #fff;
+            padding: 20px 0;
+        }
+        .site-header .logo {
+            font-size: 1.5rem;
+            color: #f5deb3;
+        }
+        .site-header .nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .hero-section {
+            background-color: #4a2e1b;
+            color: #f5deb3;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .hero-section h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .collection-title {
+            text-align: center;
+            margin: 40px 0 20px 0;
+            color: #3b2314;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px 40px 20px;
+        }
+        .product-card {
+            background: #ffffff;
+            border: 1px solid #dcd6cd;
+            padding: 15px;
+            border-radius: 4px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .product-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 3px;
+            background-color: #eae5e0;
+        }
+        .product-card h3 {
+            font-size: 1.1rem;
+            color: #3b2314;
+            margin: 15px 0 10px 0;
+        }
+        .product-card p {
+            font-size: 0.85rem;
+            color: #555;
+            min-height: 40px;
+        }
+        .price {
+            font-weight: bold;
+            color: #5c3a21;
+            margin: 10px 0;
+        }
+        .btn-buy {
+            display: inline-block;
+            background-color: #4a2e1b;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 3px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+        .btn-buy:hover {
+            background-color: #3b2314;
+        }
+        .site-footer {
+            background-color: #3b2314;
+            color: #f5deb3;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9rem;
+        }
+        .site-footer a {
+            color: #f5deb3;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <h1 class="logo" style="margin: 0;">Filipinoy Central</h1>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="marketplace.html">Products</a>
+                <a href="portfolio.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <h2>Classic Fits of Filipino</h2>
+        <p>Timeless traditional Filipino attire for formal events and heritage wear.</p>
+    </section>
+
+    <h2 class="collection-title">Our Collection</h2>
+
+    <div class="product-grid">
+        <!-- Item 1: Barong Tagalog -->
+        <div class="product-card">
+            <img src="barong.jpg" alt="Barong Tagalog">
+            <h3>Barong Tagalog</h3>
+            <p>Formal embroidered long sleeve barong for events.</p>
+            <div class="price">₱1,000.00</div>
+            <a href="#" class="btn-buy">Buy Now</a>
+        </div>
+
+        <!-- Item 2: Baro't Saya -->
+        <div class="product-card">
+            <img src="barot saya.jpg" alt="Baro't Saya">
+            <h3>Baro't Saya</h3>
+            <p>Traditional two-piece dress for formal occasions.</p>
+            <div class="price">₱1,500.00</div>
+            <a href="#" class="btn-buy">Buy Now</a>
+        </div>
+
+        <!-- Item 3: Black Slacks -->
+        <div class="product-card">
+            <img src="slacks.jpg" alt="Black Slacks">
+            <h3>Black Slacks</h3>
+            <p>Plain formal black trousers for school or work.</p>
+            <div class="price">₱500.00</div>
+            <a href="#" class="btn-buy">Buy Now</a>
+        </div>
+
+        <!-- Item 4: Black Shoes -->
+        <div class="product-card">
+            <img src="blackshoes.jpg" alt="Black Shoes">
+            <h3>Black Shoes</h3>
+            <p>Leather formal shoes for attire and uniforms.</p>
+            <div class="price">₱700.00</div>
+            <a href="#" class="btn-buy">Buy Now</a>
+        </div>
+
+        <!-- Item 5: Long Sleeve White Camisa de Chino -->
+        <div class="product-card">
+            <img src="chino.jpg" alt="Long Sleeve White Camisa de Chino">
+            <h3>Long Sleeve White Camisa de Chino</h3>
+            <p>Plain white long sleeve undershirt for barong.</p>
+            <div class="price">₱250.00</div>
+            <a href="#" class="btn-buy">Buy Now</a>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <p>Contact Us: 09916068110 | &copy; 2026 Filipinoy Central. All rights reserved.</p>
+        <p style="margin-top: 8px;"><a href="index.html">Back to Compilation Home</a></p>
+    </footer>
+
+</body>
+</html>
